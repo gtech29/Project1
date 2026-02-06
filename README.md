@@ -1,8 +1,7 @@
 # Project 1 — Personal Interest Website (HTML + CSS)
 
-A personal Web site written in semantic HTML and custom-written
-CSS (no libraries, no CSS frameworks, no code generators) about my favorite
-band The Doors.
+A personal web site about my favorite band The Doors written in semantic HTML and custom-written
+CSS (no libraries, no CSS frameworks, no code generators)
 
 Created for **COMP 484 — Web Engineering I**.
 
