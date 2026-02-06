@@ -15,7 +15,7 @@ p {
 }
 
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 /* ===== HEADER LAYOUT ===== */
@@ -65,4 +65,46 @@ ul li a {
 
 ul li a:hover {
   background-color: #111111;
+}
+h1 {
+  font: 1.6em Verdana, Geneva, sans-serif;
+  margin-bottom: .4em;
+  color: rgb(83, 104, 138);
+}
+
+h2 {
+  font: 3.2em Georgia, "Times New Roman", Times, serif;
+  margin-bottom: .2em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+.project-intro {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  background-color: dodgerblue;
+  text-align: center;
+  padding: 10px;
+}
+.overview {
+  grid-column: 1 / -1;
+  background-color: lightblue;
+}
+.project-details {
+  background-color: lightsteelblue;
+  grid-column: 1 / 3;
+}
+.project-outcomes {
+  background-color: lightcoral;
+  /* grid-column: 1 ; */
+}
+.project-conclusion {
+  background-color: lightgreen;
+  grid-column: 1 / -1;
 }
