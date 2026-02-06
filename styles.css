@@ -19,7 +19,7 @@ body {
 }
 
 /* ===== HEADER LAYOUT ===== */
-header {
+.intro {
   background: #545353;
   width: 100%;
   display: flex;
