@@ -104,3 +104,9 @@ details {
   margin: 0;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .project-details {
+    grid-template-columns: 1fr;
+  }
+}
