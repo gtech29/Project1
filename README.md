@@ -106,3 +106,11 @@ Data collection methods may include reflective journaling, pre/post surveys, and
    ├── faculty_guide.md
    └── scalability_notes.md
 ```
+
+
+---
+
+## Resources
+
+* https://developer.mozilla.org/en-US/
+* https://www.w3schools.com/
