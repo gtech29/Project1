@@ -1,115 +1,83 @@
 html,
 body {
   margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .intro {
-  background: #858383;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
+  background: #686767;
 }
 
-/* Logo */
-header img {
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.intro .container {
+  display: flex;
+  align-items: center;
+  /*up/down*/
+  justify-content: space-between;
+  /* left/right */
+  padding: 18px 20px;
+}
+
+.logo {
   width: 100px;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-nav {
+nav ul {
+  list-style-type: none;
+  display: flex;
   margin: 0;
   padding: 0;
-  margin-left: auto;
-  margin-right: auto;
+  gap: 10px;
+
 }
 
-ul {
-  list-style: none;
-  display: flex;
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+  background-color: #444343;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.overview h1 {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+.project-details {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
+  padding-top: 20px;
   align-items: center;
 }
 
-ul li {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-ul li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  padding: 30px;
-}
-
-ul li a:hover {
-  background-color: #111111;
-}
-
-h1 {
-  font: 2.5em Georgia, "Times New Roman", Times, serif;
-  margin-bottom: .2em;
-
-}
-
-h2 {
-  font-size: 1.5em;
-}
-
-h3 {
-  font-size: 1.2em;
-}
-
-p {
-  margin-bottom: 1em;
-  text-align: justify;
-}
-
-.project-intro {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
-  background-color: transparent;
-  text-align: center;
-  padding: 20px;
-
-}
-
-.overview {
+.project-details h2 {
   grid-column: 1 / -1;
-  background-color: transparent
+  margin: 0 0 10px 0;
+  justify-self: center;
 }
 
-.project-details {
-  background-color: transparent;
-  grid-column: 1 / 2;
+.project-details img {
+  width: 100%;
+  height: auto;
 }
 
-.project-outcomes {
-  background-color: transparent;
-  grid-column: 2 / -1;
-}
-
-.project-conclusion {
-  background-color: transparent;
-  grid-column: 1 / -1;
+.project-description {
+  display: flex;
+  flex-direction: column;
 }
