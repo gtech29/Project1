@@ -109,4 +109,7 @@ details {
   .project-details {
     grid-template-columns: 1fr;
   }
+     nav ul {
+       flex-direction: column;
+     }
 }
